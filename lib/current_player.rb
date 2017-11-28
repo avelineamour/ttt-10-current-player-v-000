@@ -3,9 +3,11 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def turn_count(board)
   count = 0
-  if board.each == "X" || board.each == "O"
-    count += 1
-  end
+  board.each {|space|
+    if space == "X" || space == "O"
+      count += 0
+      puts count
+    }
 end
 
 def current_player
