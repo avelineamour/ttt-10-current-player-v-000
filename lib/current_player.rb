@@ -9,7 +9,6 @@ def turn_count(board)
     end
     end
     count
-    puts "You have taken #{count} turns"
 end
 
 def current_player
