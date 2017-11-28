@@ -7,6 +7,8 @@ def turn_count(board)
     if space != " "
       count += 1
       puts count
+    else
+      puts count
     end
     }
 end
