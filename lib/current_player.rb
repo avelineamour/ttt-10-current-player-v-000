@@ -7,8 +7,8 @@ def turn_count(board)
     if space != " "
       count += 1
     end
+    end
     count
-  end
 end
 
 def current_player
